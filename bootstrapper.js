@@ -1181,7 +1181,7 @@ var Microsoft;
                     //     LiveChatWidget.BootstrapperConstants.Equal,
                     //     window.location.host
                     // );
-                    var servicePageSrc = "http://localhost:3000/";
+                    var servicePageSrc = "https://cdn.jsdelivr.net/gh/ajj10/LiveChatDemo@main/build/index.html";
                     var appendReconnectId = function (urlParameterString) {
                         if (LiveChatBootstrapperWebChat.isNullOrEmptyString(urlParameterString)) {
                             return false;
