@@ -68,6 +68,7 @@ function lcwCustomization() {
                 MIDDLEWARE_MESSAGE_RETRY: "Reyndu aftur",
                 PRECHAT_REQUIRED_FIELD_MISSING_MESSAGE: "Þú verður að fylla út {0}",
                 MIDDLEWARE_TYPING_INDICATOR_MULTIPLE: "{0} fulltrúar eru að skrifa ...",
+                MIDDLEWARE_BANNER_CHAT_DISCONNECT: "Náði ekki að tengjast. Fyrir frekari aðstoð, vinsamlegast byrjaðu nýtt spjall."
             }
         },
 
@@ -98,17 +99,22 @@ function lcwCustomization() {
                     ariaLabel: "Sækja afrit af spjallinu"
                 }
             },
-            // styleProps: {
-            //     downloadTranscriptButtonStyleProps: {
-            //         icon: {
-            //             color: "#3370B7"
-            //         }
-            //     },
-            //     downloadTranscriptButtonHoverStyleProps: {
-            //         filter: "none",
-            //         backgroundColor: "#F3F2F1"
-            //     }
-            // }
+            styleProps: {
+                downloadTranscriptButtonStyleProps: {
+                    icon: {
+                        color: "#381068"
+                    }
+                },
+                audioNotificationButtonStyleProps: {
+                    icon: {
+                        color: "#381068"
+                    }
+                }
+                // downloadTranscriptButtonHoverStyleProps: {
+                //     filter: "none",
+                //     backgroundColor: "#F3F2F1"
+                // }
+            }
         },
 
         confirmationPaneProps: {
